@@ -6,7 +6,7 @@ import os
 import threading
 
 def get_filename_from_url(url):
-    # 从下载链接中提取文件名
+    # 从下载链接中提取文件名.
     return os.path.basename(url)
 
 def download_file(url, save_path):
